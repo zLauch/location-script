@@ -3,7 +3,7 @@ __config() -> {
     'commands' -> {
         '<players>' -> _(plrA) -> _otherloc(plrA);,
         '' -> _() ->_myloc();,
-        'me' -> _() ->_cdim();,
+        'me' -> _() ->_myloc();,
         'convDim' -> _() -> _cdim();
     }
 };
